@@ -1,3 +1,8 @@
+# fly.toml app configuration file generated for anniexboda-ifog6q on 2026-05-16T17:03:54Z
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
+
 app = "anniexboda-ifog6q"
 primary_region = "iad"
 
@@ -31,6 +36,6 @@ primary_region = "iad"
   "net.ipv4.tcp_slow_start_after_idle" = "0"
 
 [[vm]]
-  cpu_kind = "performance"
+  cpu_kind = 'performance'
   cpus = 10
   memory_mb = 66560
